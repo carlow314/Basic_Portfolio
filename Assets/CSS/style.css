@@ -1,0 +1,87 @@
+.headerline{border-color:#cccccc;}
+
+.bioheader{color:#4aaaa5;
+font-family: Georgia;
+height: 100px;
+}
+
+.aboutme{font-size:150%;
+}
+.me {
+float:left;
+height: 200px;
+width:200px;
+top: 262px;
+margin-right: 20px;
+}
+
+.bio {
+width:650px;
+height:482px;
+margin-left: 238px;
+margin-top: 111px;
+border-style: solid;
+border-color:#dddddd;
+background-color: #ffffff;
+border-width: thin;
+}
+.name {
+line-height: 90px;
+height:90px;
+width:252px;
+background-color: #4aaaa5;
+text-align: center;
+display: block;
+color:white;
+margin-top:  0px;
+margin-left: 237px;
+}
+
+h5{text-align:center;
+background-color:#666666;
+height:90px;
+bottom:0;
+left: 0;
+right: 0;
+position: sticky;
+font-size: 115%;
+line-height: 90px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 40px;
+    width: 85%;
+}
+
+li {
+    display: inline;
+    float: right;
+    border-right: 1px solid #bbb;
+    line-height: 5px;
+  }
+
+
+
+li:first-child {
+border-right: none;
+}
+
+li a {
+    display: block;
+    padding: 10px;
+    color: #777777;
+    text-decoration: none;
+    font-size: 120%;
+
+  }
+
+  li a:hover:not(.active) {
+    background-color: #eeeeee;
+}
+
+.active {
+    background-color: #4CAF50;
