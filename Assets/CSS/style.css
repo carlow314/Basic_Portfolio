@@ -8,17 +8,14 @@ font-size: 18px;
 line-height: 150%;
 }
 
-.Container{width:960px;
+.Container{
+width:960px;
 margin: 0 auto;
 overflow: hidden;
 }
 
 .ConnectHeader{
 color:#4aaaa5;
-text-align: center;
-}
-
-.Icons{
 text-align: center;
 }
 
@@ -47,27 +44,13 @@ margin-bottom: -10px;
 color:white;
 }
 
-#form{
-float: left;
-width: 650px;
-margin-top: 40px;
-margin-left: 168px;
-border:solid;
-height: 477px;
-background-color: #ffffff;
-}
-
-#portfolioBox{
-float: left;
-}
-
 #bio, #connect {
 float: left;
 margin-top: 40px;
 }
 
 #bio{
-width:630px;
+width:640px;
 border: solid;
 border-color: #dddddd;
 height: 480px;
@@ -93,11 +76,7 @@ margin-bottom: 20px;
 
 p{
 margin-right: 15px;
-}
-
-.github{
 margin-left: 10px;
-margin-right: 10px;
 }
 
 #profile{
@@ -148,8 +127,7 @@ padding: 10px;
 color: #777777;
 text-decoration: none;
 font-size: 120%;
-
-  }
+}
 
 li a:hover:not(.active) {
 background-color: #eeeeee;
@@ -167,4 +145,79 @@ bottom: 0;
 border-top: solid;
 border-color: #4aaaa5;
 border-width: 5px;
+}
+
+.nameinput{
+width:95%;
+margin-left: 12px;
+}
+
+#formsection{
+border:solid;
+width: 640px;
+height: 530px;
+margin-top: 40px;
+float: left;
+background-color: #ffffff;
+border-color: #dddddd;
+}
+
+.container1{
+  width:960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.formheader{
+color: #4aaaa5;
+margin-left: 28px;
+}
+
+.contactbreak{
+width:92%;
+border:solid;
+border-color: #dddddd;
+margin-bottom:15px;
+border-width: 2px;
+}
+
+.Namelabel{
+margin-left: 28px;
+}
+
+.nameinput{
+height: 25px;
+margin-left: 30px;
+width: 582px;
+margin-bottom: 8px;
+}
+
+.emaillabel{
+margin-left: 28px;
+}
+
+.emailinput{
+height: 25px;
+margin-left: 30px;
+width: 582px;
+margin-bottom: 8px;
+}
+
+.msglabel{
+margin-left: 28px;
+}
+
+.Message{
+height: 174px;
+margin-left: 30px;
+width: 582px;
+margin-bottom: 8px;
+}
+
+.submit{
+  height: 30px;
+  width: 100px;
+  margin-left: 30px;
+  background-color: #4aaaa5;
+  color: white;
 }

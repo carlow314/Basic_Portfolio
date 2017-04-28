@@ -6,7 +6,8 @@
     <meta charset="UTF-8">
   </head>
   <body>
-    <header>
+  <Div class="header">
+      <header>
       <h1>Jeff Carlow</h1>
     <nav>
       <ul>
@@ -16,38 +17,43 @@
     </ul>
     </nav>
   </header>
-<div class="container">
-<div id="form">
-  <form action="/action_page.php">
-
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="Your name..">
-
-    <label for="email">E-mail Address</label>
-    <input type="text" id="email" name="EmailAddress" placeholder="Your E-mail Address..">
-
-    <label for="Message">Message</label>
-    <textarea id="Message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-
+</div>
+  <div class="container1">
+<section id="formsection">
+    <h2 class="formheader">Contact</h2>
+    <hr class="contactbreak">
+  <form id="form" action="/action_page.php">
+    <label class="Namelabel" for="name">Name</label>
+    <br>
+    <input Class="nameinput" type="text" id="name" name="name" placeholder="Your name..">
+    <br>
+    <label class="emaillabel" for="email">E-mail Address</label>
+    <br>
+    <input class="emailinput" type="text" id="email" name="EmailAddress" placeholder="Your E-mail Address..">
+    <br>
+    <label class="msglabel" for="Message">Message</label>
+    <br>
+    <textarea class="Message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+    <br>
+    <input class="submit" type="submit" value="Submit">
   </form>
-</div>
-</div>
+</section>
   <aside id="connect">
-    <h4>Connect with Me</h4>
-    <a href="https://github.com/carlow314" Target="_blank">
-    <img src="Assets/Images/github.png" alt="GithubProfile">
+      <h4 class="ConnectHeader">Connect with Me</h4>
+      <hr class="connectborder">
+      <a  href="https://github.com/carlow314" Target="_blank">
+    <img class="github" src="Assets/Images/github.png" alt="GithubProfile">
     </a>
     <a href="https://www.linkedin.com/in/jeffcarlow/" Target="_blank">
-    <img src="Assets/Images/LinkedIn.png" alt="LinkedinProfile">
+    <img class="LinkedIn" src="Assets/Images/Linkedin.png" alt="LinkedinProfile">
     </a>
     <a href="http://stackoverflow.com/users/7851488/jeff-carlow?tab=profile" Target="_blank">
-    <img src="Assets/Images/Stackoverflow.png" alt="StackOverflowProfile">
+    <img class="StackOverflow" src="Assets/Images/Stackoverflow.png" alt="StackOverflowProfile">
     </a>
   </aside>
-  <Div Class="footer">
-  <h5>&#169; Copyright 2017 Jeff Carlow</h5>
-  </div>
+</Div>
+<Div Class="footer">
+<h5>&#169; Copyright 2017 Jeff Carlow</h5>
+</div>
 </body>
 </html>
