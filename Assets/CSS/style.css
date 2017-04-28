@@ -1,87 +1,170 @@
-.headerline{border-color:#cccccc;}
-
-.bioheader{color:#4aaaa5;
-font-family: Georgia;
-height: 100px;
-}
-
-.aboutme{font-size:150%;
-}
-.me {
-float:left;
-height: 200px;
-width:200px;
-top: 262px;
-margin-right: 20px;
-}
-
-.bio {
-width:650px;
-height:482px;
-margin-left: 238px;
-margin-top: 111px;
-border-style: solid;
-border-color:#dddddd;
+body {
+background-image: url("background.png");
 background-color: #ffffff;
-border-width: thin;
-}
-.name {
-line-height: 90px;
-height:90px;
-width:252px;
-background-color: #4aaaa5;
-text-align: center;
-display: block;
-color:white;
-margin-top:  0px;
-margin-left: 237px;
+font-family: "Georgia","Times New Roman", TImes, Serif;
+margin:0;
+padding: 0;
+font-size: 18px;
+line-height: 150%;
 }
 
-h5{text-align:center;
-background-color:#666666;
-height:90px;
-bottom:0;
-left: 0;
-right: 0;
-position: sticky;
-font-size: 115%;
+.Container{width:960px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.ConnectHeader{
+color:#4aaaa5;
+text-align: center;
+}
+
+.Icons{
+text-align: center;
+}
+
+header{
+background-color: ##ffffff;
+margin: 0;
+padding-top: 10px;
+padding-bottom: 10px;
+border-bottom: solid;
+border-color: #cccccc;
 line-height: 90px;
+background-color: #ffffff;
+}
+
+h1{
+background-color: ##ffffff;
+margin: 0 auto;
+margin-top: -10px;
+margin-left: 290px;
+padding-bottom: 0px;
+padding-top: 0px;
+padding-left: 10px;
+background-color: #4aaaa5;
+width: 15%;
+margin-bottom: -10px;
+color:white;
+}
+
+#form{
+float: left;
+width: 650px;
+margin-top: 40px;
+margin-left: 168px;
+border:solid;
+height: 477px;
+background-color: #ffffff;
+}
+
+#portfolioBox{
+float: left;
+}
+
+#bio, #connect {
+float: left;
+margin-top: 40px;
+}
+
+#bio{
+width:630px;
+border: solid;
+border-color: #dddddd;
+height: 480px;
+background-color: #ffffff;
+margin-bottom: 20px;
+}
+
+.me{
+width: 90%;
+border:solid;
+color:#dddddd;
+border-width: 2px;
+}
+
+.connectborder{
+width: 85%;
+border:solid;
+color:#dddddd;
+border-width: 1.5px;
+margin-top: -10px;
+margin-bottom: 20px;
+}
+
+p{
+margin-right: 15px;
+}
+
+.github{
+margin-left: 10px;
+margin-right: 10px;
+}
+
+#profile{
+float: left;
+margin-left: 10px;
+margin-right: 15px;
+height:300px;
+width:200px;
+}
+
+#connect{
+width:270px;
+border:solid;
+margin-left: 40px;
+height: 200px;
+border-color: #dddddd;
+background-color: #ffffff;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    top: 40px;
-    width: 85%;
+list-style-type: none;
+margin: 0;
+padding: 0;
+position: absolute;
+top: 35px;
+width: 85%;
+margin-left: -60px;}
+
+.aboutme{text-align: left;
+color:#4aaaa5;
+margin-left: 30px;
 }
 
 li {
-    display: inline;
-    float: right;
-    border-right: 1px solid #bbb;
-    line-height: 5px;
-  }
-
-
+display: inline;
+float: right;
+border-right: 1px solid #bbb;
+line-height: 5px;
+}
 
 li:first-child {
 border-right: none;
 }
 
 li a {
-    display: block;
-    padding: 10px;
-    color: #777777;
-    text-decoration: none;
-    font-size: 120%;
+display: block;
+padding: 10px;
+color: #777777;
+text-decoration: none;
+font-size: 120%;
 
   }
 
-  li a:hover:not(.active) {
-    background-color: #eeeeee;
+li a:hover:not(.active) {
+background-color: #eeeeee;
 }
 
 .active {
-    background-color: #4CAF50;
+background-color: #4CAF50;}
+
+.footer{
+position:absolute;
+text-align: center;
+background-color: #666666;
+width: 100%;
+bottom: 0;
+border-top: solid;
+border-color: #4aaaa5;
+border-width: 5px;
+}
