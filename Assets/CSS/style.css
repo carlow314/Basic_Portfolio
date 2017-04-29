@@ -8,17 +8,6 @@ font-size: 18px;
 line-height: 150%;
 }
 
-.Container{
-width:960px;
-margin: 0 auto;
-overflow: hidden;
-}
-
-.ConnectHeader{
-color:#4aaaa5;
-text-align: center;
-}
-
 header{
 background-color: ##ffffff;
 margin: 0;
@@ -28,25 +17,40 @@ border-bottom: solid;
 border-color: #cccccc;
 line-height: 90px;
 background-color: #ffffff;
+position:fixed;
+width: 100%;
+height: 70px;
+}
+.Container{
+width:960px;
+margin: 0 auto;
+overflow: hidden;
 }
 
 h1{
 background-color: ##ffffff;
 margin: 0 auto;
+padding-right: 10px;
 margin-top: -10px;
 margin-left: 290px;
 padding-bottom: 0px;
 padding-top: 0px;
 padding-left: 10px;
 background-color: #4aaaa5;
-width: 15%;
 margin-bottom: -10px;
 color:white;
+position:fixed;
+font-family: "Georgia";
+}
+
+.ConnectHeader{
+color:#4aaaa5;
+text-align: center;
 }
 
 #bio, #connect {
 float: left;
-margin-top: 40px;
+margin-top: 130px;
 }
 
 #bio{
@@ -108,6 +112,7 @@ margin-left: -60px;}
 .aboutme{text-align: left;
 color:#4aaaa5;
 margin-left: 30px;
+font-family: "Georgia";
 }
 
 li {
@@ -156,7 +161,7 @@ margin-left: 12px;
 border:solid;
 width: 640px;
 height: 530px;
-margin-top: 40px;
+margin-top: 130px;
 float: left;
 background-color: #ffffff;
 border-color: #dddddd;
@@ -248,6 +253,25 @@ overflow: hidden;
 }
 
 #PortfolioBox {
-float: left;
 width: 640px;
+float: left;
+height:500px;
+border: solid;
+margin-top: 130px;
+background-color: #ffffff;
+border-color: #dddddd;
+border-width: thin;
+}
+
+.Portfolio {
+color: #4aaaa5;
+margin-left: 15px;
+}
+
+.Portfoliobreak {
+  width:92%;
+  border:solid;
+  border-color: #dddddd;
+  margin-bottom:15px;
+  border-width: 2px;
 }
