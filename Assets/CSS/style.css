@@ -221,3 +221,33 @@ margin-bottom: 8px;
   background-color: #4aaaa5;
   color: white;
 }
+
+#githubsection, #linkedinsection, #stackoverflowsection {
+float: left;
+}
+
+#githubsection {
+margin-top: 15px;
+margin-left: 25px;
+}
+
+#linkedinsection {
+margin-top: 15px;
+margin-left: 15px;
+}
+
+#stackoverflowsection {
+margin-top: 15px;
+margin-left: 15px;
+}
+
+.Container_portfolio{
+width:960px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+#PortfolioBox {
+float: left;
+width: 640px;
+}
