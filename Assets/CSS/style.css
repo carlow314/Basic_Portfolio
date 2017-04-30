@@ -1,11 +1,18 @@
+html{
+position: relative;
+min-height: 100%;
+}
+
 body {
 background-image: url("../Images/background.png");
 background-color: #ffffff;
-font-family: "Georgia","Times New Roman", Times, Serif;
-margin:0;
+font-family: "Georgia", Times, "Times New Roman", serif;
+margin:0 0 80px;
 padding: 0;
 font-size: 18px;
 }
+
+
 
 header{
 background-color: #ffffff;
@@ -20,10 +27,10 @@ height: 88px;
 }
 
 h1{
+font-family: "Times New Roman";
 background-color: #4aaaa5;
 margin-bottom: 0px;
 color:white;
-font-family: "Times New Roman";
 width: 13%;
 top: -23px;
 left:18.75%;
@@ -45,6 +52,7 @@ position: relative;
 .ConnectHeader{
 color:#4aaaa5;
 text-align: center;
+font-family: "Times New Roman";
 }
 
 #connect {
@@ -57,6 +65,7 @@ width: 640px;
 float: left;
 border: solid;
 margin-top: 40px;
+margin-bottom: 40px;
 background-color: #ffffff;
 border-color: #dddddd;
 border-width: thin;
@@ -114,7 +123,7 @@ margin-left: -45px;}
 .aboutme{text-align: left;
 color:#4aaaa5;
 margin-left: 30px;
-font-family: "Georgia";
+font-family: "Times New Roman";
 }
 
 li {
@@ -147,15 +156,15 @@ background-color: #4CAF50;}
 text-align: center;
 background-color: #666666;
 width: 100%;
-bottom: 0 auto;
-position: absolute;
+bottom: 0;
+left: 0;
+position:absolute;
 border-top: solid;
 border-color: #4aaaa5;
 border-width: 5px;
-padding-top: 20px;
-padding-bottom: 20px;
+height: 70px;
+padding-top: 10px;
 clear:both;
-margin-top: 40px;
 }
 
 .nameinput{
@@ -168,6 +177,7 @@ float: left;
 border:solid;
 width: 640px;
 margin-top: 40px;
+margin-bottom: 40px;
 background-color: #ffffff;
 border-color: #dddddd;
 clear: both;
@@ -251,6 +261,7 @@ margin-left: 15px;
 
 #PortfolioBox {
 margin-top: 40px;
+margin-bottom: 40px;
 width: 640px;
 height:810px;
 float: left;
