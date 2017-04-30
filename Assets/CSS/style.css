@@ -1,7 +1,7 @@
 body {
 background-image: url("../Images/background.png");
 background-color: #ffffff;
-font-family: "Georgia","Times New Roman", TImes, Serif;
+font-family: "Georgia","Times New Roman", Times, Serif;
 margin:0;
 padding: 0;
 font-size: 18px;
@@ -23,15 +23,14 @@ h1{
 background-color: #4aaaa5;
 margin-bottom: 0px;
 color:white;
-font-family: "Georgia";
-width: 15%;
+font-family: "Times New Roman";
+width: 13%;
 top: -23px;
 left:18.75%;
 position: absolute;
 padding-top:22px;
 padding-bottom: 22px;
-padding-left: 10px;
-padding-right: -5px;
+padding-left: 13px;
 height: 44px;
 }
 
@@ -54,17 +53,16 @@ margin-top:40px;
 }
 
 #bio{
-  width: 640px;
-  float: left;
-  border: solid;
-  margin-top: 40px;
-  background-color: #ffffff;
-  border-color: #dddddd;
-  border-width: thin;
-  clear: both;
-  position: relative;
-  margin-bottom: 40px;
-  }
+width: 640px;
+float: left;
+border: solid;
+margin-top: 40px;
+background-color: #ffffff;
+border-color: #dddddd;
+border-width: thin;
+clear: both;
+position: relative;
+}
 
 .me{
 width: 90%;
@@ -252,7 +250,7 @@ margin-left: 15px;
 }
 
 #PortfolioBox {
-margin-top: 40px; 
+margin-top: 40px;
 width: 640px;
 height:810px;
 float: left;
