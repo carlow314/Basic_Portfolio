@@ -1,46 +1,46 @@
 body {
-background-image: url("background.png");
+background-image: url("../Images/background.png");
 background-color: #ffffff;
 font-family: "Georgia","Times New Roman", TImes, Serif;
 margin:0;
 padding: 0;
 font-size: 18px;
-line-height: 150%;
 }
 
 header{
-background-color: ##ffffff;
+background-color: #ffffff;
 margin: 0;
-padding-top: 10px;
-padding-bottom: 10px;
 border-bottom: solid;
 border-color: #cccccc;
-line-height: 90px;
 background-color: #ffffff;
-position:fixed;
 width: 100%;
-height: 70px;
+top: 0;
+position: relative;
+height: 88px;
 }
+
+h1{
+background-color: #4aaaa5;
+margin-bottom: 0px;
+color:white;
+font-family: "Georgia";
+width: 15%;
+top: -23px;
+left:18.75%;
+position: absolute;
+padding-top:22px;
+padding-bottom: 22px;
+padding-left: 10px;
+padding-right: -5px;
+height: 44px;
+}
+
 .Container{
 width:960px;
 margin: 0 auto;
 overflow: hidden;
-}
-
-h1{
-background-color: ##ffffff;
-margin: 0 auto;
-padding-right: 10px;
-margin-top: -10px;
-margin-left: 290px;
-padding-bottom: 0px;
-padding-top: 0px;
-padding-left: 10px;
-background-color: #4aaaa5;
-margin-bottom: -10px;
-color:white;
-position:fixed;
-font-family: "Georgia";
+clear: both;
+position: relative;
 }
 
 .ConnectHeader{
@@ -48,19 +48,23 @@ color:#4aaaa5;
 text-align: center;
 }
 
-#bio, #connect {
+#connect {
 float: left;
-margin-top: 130px;
+margin-top:40px;
 }
 
 #bio{
-width:640px;
-border: solid;
-border-color: #dddddd;
-height: 480px;
-background-color: #ffffff;
-margin-bottom: 20px;
-}
+  width: 640px;
+  float: left;
+  border: solid;
+  margin-top: 40px;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  border-width: thin;
+  clear: both;
+  position: relative;
+  margin-bottom: 40px;
+  }
 
 .me{
 width: 90%;
@@ -107,7 +111,7 @@ padding: 0;
 position: absolute;
 top: 35px;
 width: 85%;
-margin-left: -60px;}
+margin-left: -45px;}
 
 .aboutme{text-align: left;
 color:#4aaaa5;
@@ -142,14 +146,18 @@ background-color: #eeeeee;
 background-color: #4CAF50;}
 
 .footer{
-position:absolute;
 text-align: center;
 background-color: #666666;
 width: 100%;
-bottom: 0;
+bottom: 0 auto;
+position: absolute;
 border-top: solid;
 border-color: #4aaaa5;
 border-width: 5px;
+padding-top: 20px;
+padding-bottom: 20px;
+clear:both;
+margin-top: 40px;
 }
 
 .nameinput{
@@ -158,19 +166,15 @@ margin-left: 12px;
 }
 
 #formsection{
+float: left;
 border:solid;
 width: 640px;
-height: 530px;
-margin-top: 130px;
-float: left;
+margin-top: 40px;
 background-color: #ffffff;
 border-color: #dddddd;
-}
-
-.container1{
-  width:960px;
-  margin: 0 auto;
-  overflow: hidden;
+clear: both;
+overflow:hidden;
+position: relative;
 }
 
 .formheader{
@@ -220,11 +224,12 @@ margin-bottom: 8px;
 }
 
 .submit{
-  height: 30px;
-  width: 100px;
-  margin-left: 30px;
-  background-color: #4aaaa5;
-  color: white;
+height: 30px;
+width: 100px;
+margin-left: 30px;
+margin-bottom: 15px;
+background-color: #4aaaa5;
+color: white;
 }
 
 #githubsection, #linkedinsection, #stackoverflowsection {
@@ -246,21 +251,17 @@ margin-top: 15px;
 margin-left: 15px;
 }
 
-.Container_portfolio{
-width:960px;
-margin: 0 auto;
-overflow: hidden;
-}
-
 #PortfolioBox {
+margin-top: 40px; 
 width: 640px;
+height:810px;
 float: left;
-height:500px;
 border: solid;
-margin-top: 130px;
 background-color: #ffffff;
 border-color: #dddddd;
 border-width: thin;
+position: relative;
+overflow: hidden;
 }
 
 .Portfolio {
@@ -269,9 +270,111 @@ margin-left: 15px;
 }
 
 .Portfoliobreak {
-  width:92%;
-  border:solid;
-  border-color: #dddddd;
-  margin-bottom:15px;
-  border-width: 2px;
+width:92%;
+border:solid;
+border-color: #dddddd;
+margin-bottom:15px;
+border-width: 2px;
+}
+
+.Hangman {
+position: absolute;
+top: 110px;
+width: 275px;
+left:20px;
+height:200px;
+}
+
+.RPG {
+position: absolute;
+top: 110px;
+left:340px;
+width: 275px;
+height: 200px;
+
+}
+
+.Rutgers {
+position: absolute;
+top:350px;
+left:20px;
+width: 275px;
+height:200px;
+
+}
+
+.Trivia {
+position: absolute;
+top:350px;
+left:340px;
+width: 275px;
+height: 200px;
+}
+
+.Rock {
+position: absolute;
+top:590px;
+left:20px;
+width:275px;
+height:200px;
+}
+
+.HangmanDescription{
+position: absolute;
+top:245px;
+left: 20px;
+width: 275px;
+line-height: 15px;
+background-color: #4aaaa5;
+color: white;
+text-align: center;
+z-index: 2;
+}
+
+.RPGDescription{
+position: absolute;
+top:245px;
+left: 340px;
+width: 275px;
+line-height: 15px;
+background-color: #4aaaa5;
+color: white;
+text-align: center;
+z-index: 2;
+}
+
+.RutgersDescription{
+position: absolute;
+top:485px;
+left: 20px;
+width: 275px;
+line-height: 15px;
+background-color: #4aaaa5;
+color: white;
+text-align: center;
+z-index: 2;
+}
+
+.TriviaDescription{
+position: absolute;
+top:485px;
+left: 340px;
+width: 275px;
+line-height: 15px;
+background-color: #4aaaa5;
+color: white;
+text-align: center;
+z-index: 2;
+}
+
+.RockDescription{
+position: absolute;
+top:725px;
+left: 20px;
+width: 275px;
+line-height: 15px;
+background-color: #4aaaa5;
+color: white;
+text-align: center;
+z-index: 2;
 }
