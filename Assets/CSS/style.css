@@ -11,6 +11,14 @@ padding: 0;
 font-size: 18px;
 }
 
+.Container{
+width:960px;
+margin: 0 auto;
+overflow: hidden;
+clear: both;
+position: relative;
+}
+
 header{
 background-color: #ffffff;
 margin: 0;
@@ -38,12 +46,46 @@ padding-left: 13px;
 height: 44px;
 }
 
-.Container{
-width:960px;
-margin: 0 auto;
-overflow: hidden;
-clear: both;
-position: relative;
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+position: absolute;
+top: 35px;
+width: 85%;
+margin-left: -45px;}
+
+li {
+display: inline;
+float: right;
+border-right: 1px solid #bbb;
+line-height: 5px;
+font-family: "Georgia", Times, "Times New Roman", serif;
+}
+
+li:first-child {
+border-right: none;
+}
+
+li a {
+display: block;
+padding: 10px;
+color: #777777;
+text-decoration: none;
+font-size: 120%;
+}
+
+li a:hover:not(.active) {
+background-color: #eeeeee;
+}
+
+.active {
+background-color: #4CAF50;}
+
+.aboutme{text-align: left;
+color:#4aaaa5;
+margin-left: 30px;
+font-family:"Georgia", Times, "Times New Roman", serif;
 }
 
 .ConnectHeader{
@@ -55,6 +97,75 @@ font-family: "Georgia", Times, "Times New Roman", serif;
 #connect {
 float: left;
 margin-top:40px;
+}
+
+#githubsection, #linkedinsection, #stackoverflowsection {
+float: left;
+}
+
+.github{
+display: inline-block;
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px transparent;
+-webkit-transition-duration: 0.5s;
+transition-duration: 0.5s;
+}
+
+.github:hover, .github:focus, .github:active {
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+-webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);}
+
+.LinkedIn{
+display: inline-block;
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px transparent;
+-webkit-transition-duration: 0.5s;
+transition-duration: 0.5s;
+  }
+
+.LinkedIn:hover, .LinkedIn:focus, .LinkedIn:active {
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+-webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+
+.StackOverflow{
+display: inline-block;
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px transparent;
+-webkit-transition-duration: 0.5s;
+transition-duration: 0.5s;
+}
+
+.StackOverflow:hover, .StackOverflow:focus, .StackOverflow:active {
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+-webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);}
+
+#githubsection {
+margin-top: 15px;
+margin-left: 25px;
+}
+
+#linkedinsection {
+margin-top: 15px;
+margin-left: 15px;
+}
+
+#stackoverflowsection {
+margin-top: 15px;
+margin-left: 15px;
 }
 
 #bio{
@@ -106,48 +217,6 @@ height: 200px;
 border-color: #dddddd;
 background-color: #ffffff;
 }
-
-ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-position: absolute;
-top: 35px;
-width: 85%;
-margin-left: -45px;}
-
-.aboutme{text-align: left;
-color:#4aaaa5;
-margin-left: 30px;
-font-family:"Georgia", Times, "Times New Roman", serif;
-}
-
-li {
-display: inline;
-float: right;
-border-right: 1px solid #bbb;
-line-height: 5px;
-font-family: "Georgia", Times, "Times New Roman", serif;
-}
-
-li:first-child {
-border-right: none;
-}
-
-li a {
-display: block;
-padding: 10px;
-color: #777777;
-text-decoration: none;
-font-size: 120%;
-}
-
-li a:hover:not(.active) {
-background-color: #eeeeee;
-}
-
-.active {
-background-color: #4CAF50;}
 
 .footer{
 text-align: center;
@@ -246,85 +315,18 @@ color: white;
 }
 
 .submit:hover{
-  background-color: #777777;
-  color: #4aaaa5;
-  font-weight: bold;
-  font-size: 15px;
+background-color: #777777;
+color: #4aaaa5;
+font-weight: bold;
+font-size: 15px;
 }
 
-#githubsection, #linkedinsection, #stackoverflowsection {
-float: left;
-}
-
-.github{
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-}
-
-.github:hover, .github:focus, .github:active {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);}
-
-  .LinkedIn{
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px transparent;
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-  }
-
-  .LinkedIn:hover, .LinkedIn:focus, .LinkedIn:active {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);}
-
-
-    .StackOverflow{
-      display: inline-block;
-      vertical-align: middle;
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      box-shadow: 0 0 1px transparent;
-      -webkit-transition-duration: 0.5s;
-      transition-duration: 0.5s;
-    }
-
-    .StackOverflow:hover, .StackOverflow:focus, .StackOverflow:active {
-      -webkit-transform: scale(1.2);
-      transform: scale(1.2);
-      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);}
-
-#githubsection {
-margin-top: 15px;
-margin-left: 25px;
-}
-
-#linkedinsection {
-margin-top: 15px;
-margin-left: 15px;
-}
-
-#stackoverflowsection {
-margin-top: 15px;
-margin-left: 15px;
-}
 
 #PortfolioBox {
 margin-top: 40px;
 margin-bottom: 40px;
 width: 640px;
-height:810px;
+height:860px;
 float: left;
 border: solid;
 background-color: #ffffff;
@@ -336,83 +338,82 @@ overflow: hidden;
 
 .Portfolio {
 color: #4aaaa5;
-margin-left: 15px;
+margin-left: 25px;
+margin-top: 30px;
+margin-bottom: 30px;
 }
 
 .Portfoliobreak {
 width:92%;
 border:solid;
 border-color: #dddddd;
-margin-bottom:15px;
 border-width: 2px;
 }
 
 .Hangman {
 position: absolute;
-top: 110px;
+top: 130px;
 width: 275px;
 left:20px;
 height:200px;
 }
 
-.Hangman:hover:not(.active) {
+.Hangman:hover{
 opacity: .4;
 }
 
-.active {
-opacity: 1;}
 
 .RPG {
 position: absolute;
-top: 110px;
+top: 130px;
 left:340px;
 width: 275px;
 height: 200px;
 }
 
-.RPG:hover:not(.active) {
+.RPG:hover {
 opacity: .4;
 }
 
 .Rutgers {
 position: absolute;
-top:350px;
+top:380px;
 left:20px;
 width: 275px;
 height:200px;
 }
 
-.Rutgers:hover:not(.active) {
+.Rutgers:hover{
 opacity: .4
 }
 
 .Trivia {
 position: absolute;
-top:350px;
+top:380px;
 left:340px;
 width: 275px;
 height: 200px;
 }
 
-.Trivia:hover:not(.active) {
+.Trivia:hover {
 opacity: .4;
 }
 
 .Rock {
 position: absolute;
-top:590px;
+top:620px;
 left:20px;
 width:275px;
 height:200px;
 }
 
-.Rock:hover:not(.active) {
+.Rock:hover{
 opacity: .4;
 }
 
 .HangmanDescription{
 position: absolute;
-top:245px;
+top:265px;
 left: 20px;
 width: 275px;
 line-height: 15px;
@@ -425,7 +426,7 @@ font-family: "Georgia", Times, "Times New Roman", serif;
 
 .RPGDescription{
 position: absolute;
-top:245px;
+top:265px;
 left: 340px;
 width: 275px;
 line-height: 15px;
@@ -438,7 +439,7 @@ font-family: "Georgia", Times, "Times New Roman", serif;
 
 .RutgersDescription{
 position: absolute;
-top:485px;
+top:515px;
 left: 20px;
 width: 275px;
 line-height: 15px;
@@ -451,7 +452,7 @@ font-family: "Georgia", Times, "Times New Roman", serif;
 
 .TriviaDescription{
 position: absolute;
-top:485px;
+top:515px;
 left: 340px;
 width: 275px;
 line-height: 15px;
@@ -464,7 +465,7 @@ font-family: "Georgia", Times, "Times New Roman", serif;
 
 .RockDescription{
 position: absolute;
-top:725px;
+top:755px;
 left: 20px;
 width: 275px;
 line-height: 15px;
