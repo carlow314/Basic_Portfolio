@@ -329,13 +329,12 @@ font-size: 15px;
 #PortfolioBox {
 margin-top: 40px;
 margin-bottom: 40px;
-width: 640px;
+width: 645.2px;
 height:860px;
 float: left;
 border: solid;
 background-color: #ffffff;
 border-color: #dddddd;
-border-width: thin;
 position: relative;
 overflow: hidden;
 }
