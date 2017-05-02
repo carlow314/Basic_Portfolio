@@ -37,8 +37,8 @@ background-color: #4aaaa5;
 margin-bottom: 0px;
 color:white;
 width: 16% auto;
-top: -23px;
-left:18.75%;
+top: -24px;
+left:19.00%;
 position: absolute;
 padding-top:22px;
 padding-bottom: 22px;
@@ -246,7 +246,7 @@ margin-left: 12px;
 #formsection{
 float: left;
 border:solid;
-width: 640px;
+width: 645.2px;
 margin-top: 40px;
 margin-bottom: 40px;
 background-color: #ffffff;
@@ -355,9 +355,9 @@ font-family:"Georgia",Times, "Times New Roman", serif;
 
 .Hangman {
 position: absolute;
-top: 130px;
+top: 125px;
 width: 275px;
-left:20px;
+left:25px;
 height:200px;
 }
 
@@ -369,7 +369,7 @@ opacity: .4;
 .RPG {
 position: absolute;
 top: 130px;
-left:340px;
+left:330.2px;
 width: 275px;
 height: 200px;
 }
