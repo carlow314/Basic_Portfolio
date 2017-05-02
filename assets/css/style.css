@@ -330,13 +330,13 @@ font-size: 15px;
 margin-top: 40px;
 margin-bottom: 40px;
 width: 645.2px;
-height:860px;
+height:840px;
 float: left;
 border: solid;
 background-color: #ffffff;
 border-color: #dddddd;
 position: relative;
-overflow: hidden;
+
 }
 
 .Portfolio {
@@ -355,9 +355,9 @@ font-family:"Georgia",Times, "Times New Roman", serif;
 
 .Hangman {
 position: absolute;
-top: 125px;
+top: 120px;
 width: 275px;
-left:25px;
+left:20px;
 height:200px;
 }
 
@@ -368,8 +368,8 @@ opacity: .4;
 
 .RPG {
 position: absolute;
-top: 130px;
-left:330.2px;
+top: 120px;
+right:20px;
 width: 275px;
 height: 200px;
 }
@@ -380,7 +380,7 @@ opacity: .4;
 
 .Rutgers {
 position: absolute;
-top:380px;
+top:360px;
 left:20px;
 width: 275px;
 height:200px;
@@ -392,8 +392,8 @@ opacity: .4
 
 .Trivia {
 position: absolute;
-top:380px;
-left:340px;
+top:360px;
+right:20px;
 width: 275px;
 height: 200px;
 }
@@ -404,7 +404,7 @@ opacity: .4;
 
 .Rock {
 position: absolute;
-top:620px;
+top:600px;
 left:20px;
 width:275px;
 height:200px;
@@ -416,7 +416,7 @@ opacity: .4;
 
 .HangmanDescription{
 position: absolute;
-top:265px;
+top:255px;
 left: 20px;
 width: 275px;
 line-height: 15px;
@@ -429,8 +429,8 @@ font-family: "Georgia", Times, "Times New Roman", serif;
 
 .RPGDescription{
 position: absolute;
-top:265px;
-left: 340px;
+top:255px;
+right: 20px;
 width: 275px;
 line-height: 15px;
 background-color: #4aaaa5;
@@ -442,7 +442,7 @@ font-family: "Georgia", Times, "Times New Roman", serif;
 
 .RutgersDescription{
 position: absolute;
-top:515px;
+top:495px;
 left: 20px;
 width: 275px;
 line-height: 15px;
@@ -455,8 +455,8 @@ font-family: "Georgia", Times, "Times New Roman", serif;
 
 .TriviaDescription{
 position: absolute;
-top:515px;
-left: 340px;
+top:495px;
+right: 20px;
 width: 275px;
 line-height: 15px;
 background-color: #4aaaa5;
@@ -468,7 +468,7 @@ font-family: "Georgia", Times, "Times New Roman", serif;
 
 .RockDescription{
 position: absolute;
-top:755px;
+top:735px;
 left: 20px;
 width: 275px;
 line-height: 15px;
