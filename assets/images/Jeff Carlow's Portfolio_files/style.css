@@ -170,13 +170,14 @@ margin-left: 15px;
 }
 
 #bio{
-width: 645.2px;
+width: 640px;
 float: left;
 border: solid;
 margin-top: 40px;
 margin-bottom: 40px;
 background-color: #ffffff;
 border-color: #dddddd;
+border-width: thin;
 clear: both;
 position: relative;
 }
