@@ -107,52 +107,30 @@ float: left;
 .github{
 display: inline-block;
 vertical-align: middle;
--webkit-transform: perspective(1px) translateZ(0);
-transform: perspective(1px) translateZ(0);
-box-shadow: 0 0 1px transparent;
--webkit-transition-duration: 0.5s;
-transition-duration: 0.5s;
 }
 
-.github:hover, .github:focus, .github:active {
--webkit-transform: scale(1.2);
-transform: scale(1.2);
--webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);}
-
+.github:hover{
+background-color: gray;
+}
 .LinkedIn{
 display: inline-block;
 vertical-align: middle;
--webkit-transform: perspective(1px) translateZ(0);
-transform: perspective(1px) translateZ(0);
-box-shadow: 0 0 1px transparent;
--webkit-transition-duration: 0.5s;
-transition-duration: 0.5s;
-  }
 
-.LinkedIn:hover, .LinkedIn:focus, .LinkedIn:active {
--webkit-transform: scale(1.2);
-transform: scale(1.2);
--webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.LinkedIn:hover {
+background-color: black;
 }
 
 
 .StackOverflow{
 display: inline-block;
 vertical-align: middle;
--webkit-transform: perspective(1px) translateZ(0);
-transform: perspective(1px) translateZ(0);
-box-shadow: 0 0 1px transparent;
--webkit-transition-duration: 0.5s;
-transition-duration: 0.5s;
 }
 
-.StackOverflow:hover, .StackOverflow:focus, .StackOverflow:active {
--webkit-transform: scale(1.2);
-transform: scale(1.2);
--webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);}
+.StackOverflow:hover {
+background-color: gray;
+} 
 
 #githubsection {
 margin-top: 15px;
